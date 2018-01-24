@@ -18,6 +18,7 @@
         <b class="pic_price">{{item.pic_price}}</b>
       </view>
     </view>
+    
     <!-- <view class='pic_show pic_right'>
       <image style="background-color: #333;" mode="{{item.mode}}" src="{{item.src}}"></image>
       <view class="pic_info">
