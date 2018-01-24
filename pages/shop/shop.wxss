@@ -1,0 +1,13 @@
+.index_body {
+  height: 100vh;
+}
+
+.banner {
+  width: 100vw;
+  height: 400rpx;
+}
+
+.banner image {
+  width: 100vw;
+  height: 400rpx;
+}
