@@ -19,7 +19,7 @@
   display: block;
   width: 100vw;
   height: 38px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
   color: #f80;
   text-align: center;

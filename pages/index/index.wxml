@@ -9,7 +9,7 @@
   </swiper>
   <view class="container">
     <view class="tips">
-      <b>详细价格请咨询门店</b>
+      <b>详细价格请咨询门店，饿了么APP下单优惠更多哦！</b>
     </view>
     <view class='pic_show pic_left' wx:for="{{array}}" wx:for-item="item" wx:key="unique">
       <image style="background-color: #333;" mode="{{item.mode}}" src="{{item.src}}"></image>

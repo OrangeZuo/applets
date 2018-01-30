@@ -4,8 +4,25 @@
     <image src='{{banner_img}}'></image>
   </view>
   <view class='info'>
-    <view class='phone'></view>
-    <view class='address'></view>
+    <view class='shop_name title'>
+      古巷花艺
+    </view>
+    <view class='phone content' bindtap='phone_call'>
+      <image class='phone_icon icon' src='{{phone_icon}}'></image>
+      023-40405060
+    </view>
+    <view class='address content' bindtap='address_map'>
+      <image class='address_icon icon' src='{{address_icon}}'></image>
+      长寿区桃园西四路1号51幢（力军代驾旁）
+    </view>
   </view>
-  <view class="service"></view>
+  <view class="service">
+    <view class='service_name title'>门店服务</view>
+    <view class='service_content'>
+        <view class='service_Piece' wx:for="{{service_array}}" wx:for-item="item" wx:key="unique">
+            <image class='service_icon' src='{{item.icon}}'></image>  
+            {{item.icon_name}}
+        </view>
+    </view>
+  </view>
 </view>
